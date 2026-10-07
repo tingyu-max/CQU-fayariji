@@ -1,0 +1,27 @@
+# ===== 依赖 =====
+node_modules/
+miniprogram_npm/
+bower_components/
+
+# ===== 微信开发者工具 =====
+# 个人私有配置（含本地 appid / 编译设置），不要提交
+project.private.config.json
+.wechat/
+
+# ===== 构建产物 =====
+dist/
+build/
+
+# ===== 日志与临时文件 =====
+*.log
+npm-debug.log*
+yarn-error.log*
+*.tmp
+*.bak
+
+# ===== 编辑器 / 操作系统 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
